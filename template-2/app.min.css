@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600");
 /*===== Typography =====*/
 body {
+  background: #f8f8f8;
   font-family: "Open Sans", sans-serif;
   font-weight: 300; }
 
@@ -16,6 +17,10 @@ a {
 
 .avatar {
   height: 250px; }
+
+.profile {
+  background: url("./hero/blue.svg");
+  background-size: cover; }
 
 /*===== Social Icon =====*/
 .social-icons a {

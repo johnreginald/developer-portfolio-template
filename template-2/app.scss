@@ -4,6 +4,7 @@ $font-sans-serif: "Open Sans", sans-serif;
 
 /*===== Typography =====*/
 body {
+    background: #f8f8f8;
     font-family: $font-sans-serif;
     font-weight: 300;
 }
@@ -20,6 +21,10 @@ a {
 
 .avatar {
     height: 250px;
+}
+.profile {
+    background: url('./hero/blue.svg');
+    background-size: cover;
 }
 /*===== Social Icon =====*/
 .social-icons {
