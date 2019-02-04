@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+$font-sans-serif: "Open Sans", sans-serif;
+
+/*===== Typography =====*/
+body {
+    font-family: $font-sans-serif;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+p {
+    color: #666;
+    line-height: 2em;
+}
+a {
+    color: #03a9f4;
+}
+
+.avatar {
+    height: 250px;
+}
+/*===== Social Icon =====*/
+.social-icons {
+    a {
+        color: #666;
+    }
+    i {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #333;
+        font-size: 32px;
+        margin: 18px 5px;
+        padding-top: 8px;
+        border-radius: 10%;
+        transition: all ease .3s;
+
+        &:hover {
+            text-decoration: none;
+            color: #FFF;
+            border-color: transparent;
+        }
+    }
+    .fa-facebook:hover {
+        background: #4060A5;
+    }
+    .fa-twitter:hover {
+        background: #00ABE3;
+    }
+    .fa-github:hover {
+        background: #343434;
+    }
+    .fa-linkedin:hover {
+        background: #0094BC;
+    }
+    .fa-phone:hover {
+        background: green;
+    }
+}
